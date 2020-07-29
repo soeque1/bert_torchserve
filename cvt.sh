@@ -1,0 +1,1 @@
+torch-model-archiver --model-name "bert" --version 1.0 --serialized-file ./bert/pytorch_model.bin --extra-files "./bert/config.json,./bert/vocab.txt" --handler "./app.py"
